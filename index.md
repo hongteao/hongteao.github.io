@@ -112,6 +112,7 @@ curl -XPOST -H "Content-Type: application/x-www-form-urlencoded" -d "arn=arn:aws
         }
     }
 }
+'''
 
 ### Create write policy
 
@@ -121,7 +122,7 @@ curl -XPOST -H "Content-Type: application/x-www-form-urlencoded" -d "arn=arn:aws
 
 
 ### Response
-
+'''json
 {
     "prediction": {
         "policy_sentry_output": {
@@ -215,7 +216,7 @@ curl -XPOST -H "Content-Type: application/x-www-form-urlencoded" -d "arn=arn:aws
         }
     }
 }
-
+'''
 
 ### Create List
 
@@ -225,6 +226,7 @@ curl -XPOST -H "Content-Type: application/x-www-form-urlencoded" -d "arn=arn:aws
 
 ### Response
 
+'''json
 {
     "prediction": {
         "policy_sentry_output": {
@@ -328,4 +330,4 @@ curl -XPOST -H "Content-Type: application/x-www-form-urlencoded" -d "arn=arn:aws
         }
     }
 }
- 
+'''
