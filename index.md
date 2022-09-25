@@ -9,9 +9,8 @@ Set the AWS config
 access_key = 'Your AWS access_key'
 secret_key = 'Your AWS secret_key'
 
-### IAM API
 
-### Create read policy
+## Create read policy
 
 POST /read/
 
@@ -114,7 +113,7 @@ curl -XPOST -H "Content-Type: application/x-www-form-urlencoded" -d "arn=arn:aws
 }
 '''
 
-### Create write policy
+## Create write policy
 
 POST /write/
 
@@ -218,7 +217,7 @@ curl -XPOST -H "Content-Type: application/x-www-form-urlencoded" -d "arn=arn:aws
 }
 '''
 
-### Create List
+## Create List
 
 POST /read/
 
