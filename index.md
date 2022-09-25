@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## IAM API example application
 
-You can use the [editor on GitHub](https://github.com/hongteao/hongteao.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Install
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Run the app
 
-```markdown
-Syntax highlighted code block
+### IAM API
 
-# Header 1
-## Header 2
-### Header 3
+### Request
 
-- Bulleted
-- List
+### Response
 
-1. Numbered
-2. List
+### Create read
+curl -XPOST -H "Content-Type: application/x-www-form-urlencoded" -d "arn=arn:aws:ec2:ap-northeast-2:913529381735:instance/${InstanceId}1&rolename=test21" http://127.0.0.1:8000/read
 
-**Bold** and _Italic_ and `Code` text
+### Create write
+curl -XPOST -H "Content-Type: application/x-www-form-urlencoded" -d "arn=arn:aws:ec2:ap-northeast-2:913529381735:instance/${InstanceId}1&rolename=test21" http://127.0.0.1:8000/read
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hongteao/hongteao.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Create List
+curl -XPOST -H "Content-Type: application/x-www-form-urlencoded" -d "arn=arn:aws:ec2:ap-northeast-2:913529381735:instance/${InstanceId}1&rolename=test21" http://127.0.0.1:8000/read
