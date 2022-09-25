@@ -112,7 +112,6 @@ curl -XPOST -H "Content-Type: application/x-www-form-urlencoded" -d "arn=arn:aws
         }
     }
 }
-'''
 
 ### Create write policy
 
