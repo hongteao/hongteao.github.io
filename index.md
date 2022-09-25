@@ -17,7 +17,7 @@ POST /read/
 curl -XPOST -H "Content-Type: application/x-www-form-urlencoded" -d "arn=arn:aws:ec2:{$Region}:{$AccontdId}:instance/${InstanceId}&rolename={$rolename}" http://127.0.0.1:8000/read
 
 ### Response
-'''json
+''' json
 {
 {
     "prediction": {
