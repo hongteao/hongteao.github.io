@@ -2,9 +2,12 @@
 
 
 ### Install
-
+Docker run 
 
 ### Run the app
+Set the AWS config
+access_key = 'Your AWS access_key'
+secret_key = 'Your AWS secret_key'
 
 ### IAM API
 
