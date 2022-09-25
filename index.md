@@ -62,8 +62,6 @@ POST /list/
 curl -XPOST -H "Content-Type: application/x-www-form-urlencoded" -d "arn=arn:aws:ec2:ap-northeast-2:913529381735:instance/${InstanceId}1&rolename={$rolename}" http://127.0.0.1:8000/list
 
 ### Response
-
-'''json
 {
     "prediction": {
         "policy_sentry_output": {
@@ -105,7 +103,6 @@ POST /write/
 curl -XPOST -H "Content-Type: application/x-www-form-urlencoded" -d "arn=arn:aws:ec2:ap-northeast-2:913529381735:instance/${InstanceId}1&rolename={$rolename}" http://127.0.0.1:8000/wrtie
 
 ### Response
-
 {
     "prediction": {
         "policy_sentry_output": {
