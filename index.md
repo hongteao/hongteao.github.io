@@ -55,11 +55,11 @@ curl -XPOST -H "Content-Type: application/x-www-form-urlencoded" -d "arn=arn:aws
     }
 }'''
 
-## Create List
+## Create List Policy
 
 POST /list/
 
-curl -XPOST -H "Content-Type: application/x-www-form-urlencoded" -d "arn=arn:aws:ec2:ap-northeast-2:913529381735:instance/${InstanceId}1&rolename=test21" http://127.0.0.1:8000/read
+curl -XPOST -H "Content-Type: application/x-www-form-urlencoded" -d "arn=arn:aws:ec2:ap-northeast-2:913529381735:instance/${InstanceId}1&rolename=test21" http://127.0.0.1:8000/list
 
 ### Response
 
