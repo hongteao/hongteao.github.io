@@ -14,8 +14,8 @@ app = FastAPI()
 #Temp AWS config
 global access_key
 global secret_key
-access_key = 'AKIA5JMUYENTXBY7OZFZ'
-secret_key = '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'
+access_key = ''
+secret_key = ''
 
 
 
